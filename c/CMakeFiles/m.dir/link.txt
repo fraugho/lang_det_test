@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/m.dir/main.cpp.o -o m  ../../lang_det/target/release/liblang_det.dylib
