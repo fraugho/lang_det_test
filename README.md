@@ -37,3 +37,13 @@ cmake . && make && ./m
 
 - Root directory: Rust native implementation
 - `c/` directory: C bindings and test code
+
+## Performance Metrics
+
+### Lingua
+- **Duration:** 52,675μs
+- **Accuracy:** 68,693/70,000 (98.13%)
+
+### WhichLang
+- **Duration:** 95μs  
+- **Accuracy:** 48,555/70,000 (69.36%)
