@@ -6,7 +6,7 @@ find_program(CARGO_COMMAND cargo REQUIRED)
 
 # Define your Rust library target
 set(RUST_LIB_NAME "liblang_det")
-set(RUST_LIB_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../../lang_det")
+set(RUST_LIB_DIR "${CMAKE_CURRENT_SOURCE_DIR}/..")
 
 # Custom target to build Rust library
 add_custom_target(
@@ -17,7 +17,7 @@ add_custom_target(
 )
 
 # Import the built library
-add_library(${RUST_LIB_NAME} STATIC IMPORTED)
+add_library(${RUST_LIB_NAME} SHARED IMPORTED)
 set_target_properties(${RUST_LIB_NAME} PROPERTIES
     IMPORTED_LOCATION "${RUST_LIB_DIR}/target/release/${RUST_LIB_NAME}.dylib"
 )

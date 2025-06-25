@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/obsidian/code/proj/wrap/lang_det/c/main.cpp" "CMakeFiles/m.dir/main.cpp.o" "gcc" "CMakeFiles/m.dir/main.cpp.o.d"
+  "/Users/obsidian/code/proj/wrap/lang_det_test/c/main.cpp" "CMakeFiles/m.dir/main.cpp.o" "gcc" "CMakeFiles/m.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

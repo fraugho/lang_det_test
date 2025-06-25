@@ -1,4 +1,4 @@
-/Users/obsidian/code/proj/wrap/lang_det/c/CMakeFiles/liblang_det_build.dir
-/Users/obsidian/code/proj/wrap/lang_det/c/CMakeFiles/m.dir
-/Users/obsidian/code/proj/wrap/lang_det/c/CMakeFiles/edit_cache.dir
-/Users/obsidian/code/proj/wrap/lang_det/c/CMakeFiles/rebuild_cache.dir
+/Users/obsidian/code/proj/wrap/lang_det_test/c/CMakeFiles/liblang_det_build.dir
+/Users/obsidian/code/proj/wrap/lang_det_test/c/CMakeFiles/m.dir
+/Users/obsidian/code/proj/wrap/lang_det_test/c/CMakeFiles/edit_cache.dir
+/Users/obsidian/code/proj/wrap/lang_det_test/c/CMakeFiles/rebuild_cache.dir

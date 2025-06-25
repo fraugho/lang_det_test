@@ -1,4 +1,4 @@
-# Install script for directory: /Users/obsidian/code/proj/wrap/lang_det/c
+# Install script for directory: /Users/obsidian/code/proj/wrap/lang_det_test/c
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,7 +40,7 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/obsidian/code/proj/wrap/lang_det/c/install_local_manifest.txt"
+  file(WRITE "/Users/obsidian/code/proj/wrap/lang_det_test/c/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -56,6 +56,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/obsidian/code/proj/wrap/lang_det/c/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/obsidian/code/proj/wrap/lang_det_test/c/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

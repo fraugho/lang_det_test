@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/obsidian/code/proj/wrap/lang_det/c
+CMAKE_SOURCE_DIR = /Users/obsidian/code/proj/wrap/lang_det_test/c
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/obsidian/code/proj/wrap/lang_det/c
+CMAKE_BINARY_DIR = /Users/obsidian/code/proj/wrap/lang_det_test/c
 
 # Utility rule file for liblang_det_build.
 
@@ -67,8 +67,8 @@ include CMakeFiles/liblang_det_build.dir/compiler_depend.make
 include CMakeFiles/liblang_det_build.dir/progress.make
 
 CMakeFiles/liblang_det_build:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/obsidian/code/proj/wrap/lang_det/c/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building Rust library"
-	cd /Users/obsidian/code/proj/wrap/lang_det && /Users/obsidian/.cargo/bin/cargo build --release
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/obsidian/code/proj/wrap/lang_det_test/c/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building Rust library"
+	cd /Users/obsidian/code/proj/wrap/lang_det_test && /Users/obsidian/.cargo/bin/cargo build --release
 
 CMakeFiles/liblang_det_build.dir/codegen:
 .PHONY : CMakeFiles/liblang_det_build.dir/codegen
@@ -86,6 +86,6 @@ CMakeFiles/liblang_det_build.dir/clean:
 .PHONY : CMakeFiles/liblang_det_build.dir/clean
 
 CMakeFiles/liblang_det_build.dir/depend:
-	cd /Users/obsidian/code/proj/wrap/lang_det/c && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/obsidian/code/proj/wrap/lang_det/c /Users/obsidian/code/proj/wrap/lang_det/c /Users/obsidian/code/proj/wrap/lang_det/c /Users/obsidian/code/proj/wrap/lang_det/c /Users/obsidian/code/proj/wrap/lang_det/c/CMakeFiles/liblang_det_build.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/obsidian/code/proj/wrap/lang_det_test/c && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/obsidian/code/proj/wrap/lang_det_test/c /Users/obsidian/code/proj/wrap/lang_det_test/c /Users/obsidian/code/proj/wrap/lang_det_test/c /Users/obsidian/code/proj/wrap/lang_det_test/c /Users/obsidian/code/proj/wrap/lang_det_test/c/CMakeFiles/liblang_det_build.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/liblang_det_build.dir/depend
 
