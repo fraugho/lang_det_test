@@ -1,4 +1,4 @@
-target/
+rust_test/target/
 c/CMakeFiles/
 c/CMakeCache.txt
 c/Makefile

@@ -5,8 +5,8 @@ project(LangDet)
 find_program(CARGO_COMMAND cargo REQUIRED)
 
 # Define your Rust library target
-set(RUST_LIB_NAME "liblang_det")
-set(RUST_LIB_DIR "${CMAKE_CURRENT_SOURCE_DIR}/..")
+set(RUST_LIB_NAME "rust_test")
+set(RUST_LIB_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../rust_test")
 
 # Custom target to build Rust library
 add_custom_target(

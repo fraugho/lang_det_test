@@ -9,6 +9,7 @@ This project provides language detection functionality with both Rust native and
 To run the Rust native language detection test:
 
 ```bash
+cd rust_test
 cargo run --release
 ```
 

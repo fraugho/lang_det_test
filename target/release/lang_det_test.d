@@ -1,0 +1,1 @@
+C:\Users\aghofru\code\git\lang_det_test\target\release\lang_det_test.exe: C:\Users\aghofru\code\git\lang_det_test\src\lingua.rs C:\Users\aghofru\code\git\lang_det_test\src\main.rs C:\Users\aghofru\code\git\lang_det_test\src\record.rs C:\Users\aghofru\code\git\lang_det_test\src\whichlang.rs
