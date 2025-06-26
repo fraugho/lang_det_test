@@ -1,4 +1,5 @@
 rust_test/target/
+target/
 c/CMakeFiles/
 c/CMakeCache.txt
 c/Makefile
